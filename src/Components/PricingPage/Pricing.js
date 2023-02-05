@@ -1,6 +1,7 @@
 import { Icon } from '@iconify/react';
 import React from 'react';
 import Footer from '../Common/Footer';
+import './Pricing.css'
 
 const Pricing = () => {
     return (
@@ -56,7 +57,7 @@ const Pricing = () => {
                     </div>
                 </div>
             </section>
-            <section className='container mx-auto flex overflow-auto'>
+            <section className='container mx-auto table-grid overflow-auto bg-purple-600 p-5 rounded-xl'>
                 <div>
                     <p>Lorem ipsum doller sit</p>
                     <p>Lorem ipsum doller sit</p>
@@ -70,73 +71,73 @@ const Pricing = () => {
                     <p>Lorem ipsum doller sit</p>
                     <p>Lorem ipsum doller sit</p>
                 </div>
-                <table>
+                <table className='bg-base-100 rounded-xl'>
                     <tbody className=''>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                         <tr>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
-                            <td><Icon icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
+                            <td><Icon className='mx-auto'  icon="teenyicons:tick-circle-solid" /></td>
                         </tr>
                     </tbody>
                 </table>

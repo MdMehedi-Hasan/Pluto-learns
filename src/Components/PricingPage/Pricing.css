@@ -1,0 +1,10 @@
+.table-grid{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr{
+    border: 1px solid black;
+}
